@@ -1,1 +1,206 @@
-/* You can add global styles to this file, and also import other style files */
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    padding: 10px 0;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    background-color: #e9ecef;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('assets/trowel.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: #115b76;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Services Section Styles */
+  .services {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .services h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .service-item {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .service-item img {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  /* About Section Styles */
+  .about {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-content img {
+    width: 50%;
+    margin-right: 30px;
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #115b76;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Design (Example) */
+  @media (max-width: 768px) {
+    .header-container,
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    .about-content img,
+    .about-text {
+      width: 100%;
+    }
+  
+    .about-content img {
+      margin-bottom: 20px;
+    }
+    .contact-info {
+      align-items: center;
+    }
+  }
