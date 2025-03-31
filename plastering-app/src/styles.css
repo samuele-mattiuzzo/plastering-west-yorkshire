@@ -86,20 +86,19 @@ body {
   }
   
   .hero p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
+    word-spacing: 0%;
   }
   
   .btn {
-    background-color: #0056b3;
-    color: white;
+    background-color: #fff;
+    color: #333;
     padding: 12px 24px;
     border-radius: 4px;
     text-decoration: none;
   }
   
   .btn:hover {
-    background-color: #0056b3;
+    background-color: #fff;
   }
   
   /* Services Section Styles */
@@ -150,8 +149,8 @@ body {
   }
   
   .about-content img {
-    width: 50%;
-    margin-right: 30px;
+    width: 25%;
+    margin-right: 25%;
   }
   
   .about-text {
