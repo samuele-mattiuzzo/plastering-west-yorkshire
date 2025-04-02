@@ -1,0 +1,10 @@
+.area-covered {
+    padding: 45px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+  
+.area-covered h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
