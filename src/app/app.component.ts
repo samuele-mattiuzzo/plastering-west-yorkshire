@@ -3,7 +3,6 @@ import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact/contact.component';
 import { AreaCoveredComponent } from './area-covered/area-covered.component';
@@ -16,7 +15,6 @@ import { AreaCoveredComponent } from './area-covered/area-covered.component';
     HeroComponent,
     ServicesComponent,
     FooterComponent,
-    BrowserAnimationsModule,
     CommonModule,
     ContactComponent,
     AreaCoveredComponent
