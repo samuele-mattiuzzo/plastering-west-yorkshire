@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -75,30 +75,20 @@ body {
   }
   
   @media (max-width: 768px) {
-    .header-container,
+    .about {
+      padding: 0;
+    }
     .about-content {
       flex-direction: column;
       align-items: center;
-    }
-  
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    nav li {
-      margin: 10px 0;
-    }
-  
-    .about-content img,
-    .about-text {
-      width: 100%;
+      text-align: center;
     }
   
     .about-content img {
-      margin-bottom: 20px;
+      display: none;
     }
-    .contact-info {
-      align-items: center;
+  
+    .about-text {
+      width: 100%;
     }
   }
