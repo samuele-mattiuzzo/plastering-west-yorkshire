@@ -1,11 +1,10 @@
-/* General Styles */
 body {
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-  }
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
   
   a {
     text-decoration: none;
@@ -28,48 +27,6 @@ body {
     padding: 0 20px;
   }
   
-  /* Header Styles */
-  header {
-    background-color: #fff;
-    padding: 10px 0;
-  }
-  
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo img {
-    height: 80px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav li {
-    margin-left: 20px;
-  }
-  
-  nav a {
-    color: #333;
-    padding: 8px 12px;
-    border-radius: 4px;
-  }
-  
-  nav a:hover {
-    background-color: #e9ecef;
-  }
-  
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  /* Hero Section Styles */
   .hero {
     background-image: url('assets/trowel.png');
     background-size: cover;
@@ -93,43 +50,6 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
-  /* Services Section Styles */
-  .services {
-    padding: 45px 0;
-    text-align: center;
-    background-color: #f8f9fa;
-  }
-  
-  .services h2 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-  }
-  
-  .service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-  }
-  
-  .service-item {
-    padding: 30px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  .service-item img {
-    height: 50px;
-    margin-bottom: 20px;
-  }
-  
-  .service-item h3 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-  }
-  
-  /* About Section Styles */
   .about {
     background-color: #fff;
     padding: 45px 0;
@@ -154,19 +74,6 @@ body {
     margin-bottom: 20px;
   }
   
-  /* Footer Styles */
-  footer {
-    background-color: #115b76;
-    color: white;
-    text-align: center;
-    padding: 40px 0;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  /* Responsive Design (Example) */
   @media (max-width: 768px) {
     .header-container,
     .about-content {
